@@ -144,3 +144,4 @@ Received Import Request.
 Start importing Assets/Material/Ground.mat using Guid(eaa18a213abb9714d803177aa28094e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c68d022ddb78c3bfd4d67e22ab4dd37') in 0.080999 seconds 
   Import took 0.083066 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
