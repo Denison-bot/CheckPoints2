@@ -7,6 +7,7 @@ public class ResetPlayer : MonoBehaviour
     public CharacterController Player;
     Vector3 respawnPoint;
     
+    
 
     // Start is called before the first frame update
     void Start()
@@ -23,6 +24,7 @@ public class ResetPlayer : MonoBehaviour
             //Player.transform.position = new Vector3(0.0f, 1.0f, 0.0f);
             //Player.Move(new Vector3(0.0f, 10.0f, 0.0f));
             Vector3 deltaMove = respawnPoint - Player.transform.position;
+            //Player.detectCollisions = false;
             Player.Move(deltaMove);
         }
     }
