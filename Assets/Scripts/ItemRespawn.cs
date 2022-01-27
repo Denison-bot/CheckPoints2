@@ -24,6 +24,7 @@ public class ItemRespawn : MonoBehaviour
             {
                 this.gameObject.GetComponent<MeshRenderer>().enabled = true;
                 collected = false;
+                respawnTimer = 5.0f;
             }
        }        
     }
